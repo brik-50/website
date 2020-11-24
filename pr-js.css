@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    background-color: rgb(231, 185, 57);
+    border: 2px solid lightblue;
+    flex-wrap: wrap;
+
+}
+.list ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding: 2px;
+    align-items:space-between ;
+    margin-right: 10px;
+    
+}
+a{
+    text-decoration: none;
+    padding: 3px 20px;
+    border: 2px solid white;
+    margin: 0 20px;
+    color: rgb(238, 229, 229);
+    background-color: rgb(250, 130, 18);
+}
+a li{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    
+
+}
+h1{
+    padding: 8px;
+    margin-left:30px ;
+
+}
+a:hover{
+    color: rgb(250, 130, 18);
+    background-color: white;
+}  
+div img{
+    display: flex;
+    justify-content: center;
+    width: 1519.2px;
+    height: 600px;
+   
+}
+.midle-left{
+    position: absolute;
+    top: 150px;
+}
+#search{
+    border-radius:3px solid black ;
+
+}
+
+section{
+    font-size: large;
+    display:flex;
+    justify-content: center; 
+}
+input{
+    font-size: 30px;
+    margin: 10px;
+}
+button{
+float: left;
+width: 40px;
+padding: 5px;
+background: #2196F3;
+color: white;
+font-size: 17px;
+border: 1px solid grey;
+border-left: none;
+cursor: pointer;
+height: 40px;
+margin: 10px;
+}
+.card  {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 60%;
+    text-align: center;
+
+    
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left:150px ;
+
+
+
+}
+.card img{
+    height: 300px;
+    
+}
+#contact{
+    background-color: rgb(63, 62, 62);
+    height: 300px;
+}
+.social{
+    display: flex;
+    
+}
+.contact{
+    flex: 1;
+    
+}
+.email{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.email ul{
+    list-style: none;
+    margin-top: 80px;
+}
+.fb-img{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+.icon{
+    display: flex;
+}
