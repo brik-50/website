@@ -69,6 +69,7 @@ section{
     font-size: large;
     display:flex;
     justify-content: center; 
+    background-color=rgb(230, 235, 190);
 }
 input{
     font-size: 30px;
