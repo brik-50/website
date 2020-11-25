@@ -12,6 +12,9 @@ header{
     flex-wrap: wrap;
 
 }
+.all{
+    background-color=rgb(230, 235, 190);
+}
 .list ul{
     display: flex;
     justify-content: flex-end;
